@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Calcular numeros primos - Inicio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" 
+              href="webjars/bootstrap/5.1.0/css/bootstrap.min.css" type="text/css" />
+    </head>
+    <body>
+        <div class="container mt-5">
+            <form name="form" action="/WebApp03Tarea/ServletNPrimos" method="post">
+                <div class="mb-3">
+                    <label for="numero" class="form-label">Ingrese un numero</label>
+                    <input type="number" name="numero" class="form-control" id="numero">
+                </div>
+                <button type="submit" class="btn btn-primary">Calcular primos</button>
+            </form>
+        </div>
+    </body>
+</html>
